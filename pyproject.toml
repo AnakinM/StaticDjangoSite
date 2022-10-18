@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "StaticDjangoSite"
+version = "0.1.0"
+description = ""
+authors = ["Mateusz Anikiej <mateusz@anikiej.com>"]
+readme = "README.md"
+packages = []
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Django = "^4.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
